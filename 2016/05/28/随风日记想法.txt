@@ -1,0 +1,11 @@
+﻿公司电脑 windows
+个人电脑 ubuntu
+
+编码格式统一另存为utf-8
+
+windows电脑可以另存为utf-8格式
+ubuntu应该默认为utf-8，可以验证一下
+
+每天更新的日志通过github来同步
+
+后期可以编写漂亮的界面
