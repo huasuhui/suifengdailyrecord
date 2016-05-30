@@ -1,0 +1,3 @@
+﻿eclipse 多剪切板插件More Clipboard for Eclipse
+
+下载地址 https://sourceforge.net/projects/moreclipboard/files/

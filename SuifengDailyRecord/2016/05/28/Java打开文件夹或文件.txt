@@ -1,0 +1,15 @@
+﻿1.java 打开文件夹
+参考网址：http://blog.csdn.net/superdog007/article/details/8690144
+一、调用windows系统函数
+Runtime.getRuntime().exec("cmd /c start h:\\movie");
+或者如下
+Runtime.getRuntime().exec(new String[] {"cmd","/c","start","","d:soft"});
+注：这里/c是指定的，因为系统是装在c盘在。
+二、直接利用java api
+java.awt.Desktop.getDesktop().open(new File("D:\\Java"));
+
+2.java 打开文件
+
+将第一点中的文件夹路径改成文件路径即可
+Runtime.getRuntime().exec(new String[] {"cmd","/c","start","","D:/SuifengDailyRecord/2016/05/28/随风日记想法.txt"});
+
